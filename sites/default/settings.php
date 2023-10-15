@@ -861,11 +861,11 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'bd2nu4kwobu8wlevzeiv',
-  'username' => 'unpzbosttjymtdsq',
-  'password' => 'cIuUmGiElgzNFMcz1ZVG',
+  'database' => getenv('DATABASE_NAME'),
+  'username' => getenv('DATABASE_USER'),
+  'password' => getenv('DATABASE_PASSWORD'),
   'prefix' => '',
-  'host' => 'bd2nu4kwobu8wlevzeiv-mysql.services.clever-cloud.com',
+  'host' => getenv('DATABASE_HOST'),
   'port' => '3306',
   'isolation_level' => 'READ COMMITTED',
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
