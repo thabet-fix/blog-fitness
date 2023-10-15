@@ -861,11 +861,11 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'blog-eminence',
-  'username' => 'root',
+  'database' => 'bd2nu4kwobu8wlevzeiv',
+  'username' => 'unpzbosttjymtdsq',
   'password' => '',
   'prefix' => '',
-  'host' => 'localhost',
+  'host' => 'bd2nu4kwobu8wlevzeiv-mysql.services.clever-cloud.com',
   'port' => '3306',
   'isolation_level' => 'READ COMMITTED',
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
